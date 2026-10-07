@@ -15,7 +15,7 @@ on:
       solution_name:
         description: 'The solution name.'
         type: string
-        default: '<SolutionName> '  
+        default: 'ALMLab'  
 
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'       
