@@ -42,7 +42,8 @@ jobs:
     - uses: actions/checkout@v2
       with:
         lfs: true
-
+    - name: powerplatform-actions
+      uses: microsoft/powerplatform-actions@v1.9.2
     - name: export-solution action -unmanaged
       uses: microsoft/powerplatform-actions/export-solution@v0
       with:
