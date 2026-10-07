@@ -25,6 +25,9 @@ on:
         required: true
         default: solutions/
 
+permissions:
+contents: write
+
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://moritzdienerusa.crm.dynamics.com'
