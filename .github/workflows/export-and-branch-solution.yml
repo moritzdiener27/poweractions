@@ -26,7 +26,7 @@ on:
         default: solutions/
 
 permissions:
-contents: write
+  contents: write
 
 env:
 #edit your values here
